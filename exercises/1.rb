@@ -21,3 +21,17 @@
 # To rectify this, you can convert the number into a string
 # "i would like #{5} tacos"
 
+# roll1 = rand(1..6)
+# roll2 = rand(1..6)
+# puts "roll a #{roll1}"
+# puts "roll a #{roll2}"
+# puts roll1 + roll2
+
+die1 = rand(1..6)
+die2 = rand(1..6)
+total = die1 + die2
+
+puts die1
+puts die2
+puts "the total is #{total}"
+

@@ -15,3 +15,22 @@
 # Learn to read the documentation!
 # http://ruby-doc.org/core-2.5.1/Array.html
 
+my_list = ["milk","eggs","bacon"]
+# puts my_list
+
+friend_list = ["beer","cookies","apples"]
+# puts friend_list
+
+big_list = my_list + friend_list
+# puts big_list
+
+big_list_sort = big_list.sort.uniq
+puts big_list_sort
+
+# big_list_unique = big_list_sort.uniq
+# puts big_list_unique
+
+
+
+
+
