@@ -15,8 +15,14 @@ my_profile = {
         city: "Chicago", 
         nieghborhood: "Bucktown", 
         state: "IL"
-        },
-        status: "teacher",timeline:[{status: "eating", time: "morning"}, {status:"coding",time:"afternoon"},{status:"teaching",time:"evening"} }
+    },
+    status: "teacher", 
+    timeline:[
+            {status: "eating", time: "morning"}, 
+            {status:"coding",time:"afternoon"},
+            {status:"teaching",time:"evening"}
+             ] 
+    }
 # puts my_profile
 
 # puts my_profile[:name]
@@ -25,6 +31,8 @@ my_profile = {
 
 # my_profile[:pets] = "Lucy & Bailey"
 # puts my_profile
+[]
+# my_profile[:name] = {first: "Ben", last: "Block"}
+# puts my_profile
 
-my_profile[:name] = {first: "Ben", last: "Block"}
-puts my_profile
+puts my_profile[:timeline][2][:time]

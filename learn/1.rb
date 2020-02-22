@@ -9,9 +9,13 @@ puts "We have #{5 * 3} hours left in class"
 puts "Nathan and" + " Evan are helping us!"
 puts "Hours left " + 15.to_s
 
-hours = 5 * 3
+classes = 5
+time = 3
+hours = classes * time
 time_frame = "hours"
 puts "we have #{hours} #{time_frame} left in class"
+
+puts "tacos" * 5
 
 
 

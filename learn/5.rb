@@ -15,5 +15,4 @@ friends = ["Ben", "Brian", "Nathan", "Evan", "Kristen"]
 
 for zebra in friends
     puts "Hey, #{zebra}"
-    # for .... do something
 end
